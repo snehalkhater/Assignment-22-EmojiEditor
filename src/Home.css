@@ -120,3 +120,88 @@
 .rotate-btn:hover {
   background-color: #f7797d;
 }
+/* Mobile Responsive */
+@media screen and (max-width: 768px) {
+  .home-con {
+    flex-direction: column;
+    padding: 30px 20px;
+    gap: 30px;
+    align-items: center; /* center horizontally */
+  }
+
+  .emoji-box {
+    width: 250px;
+    height: 250px;
+  }
+
+  .emoji-box span {
+    font-size: 100px;
+  }
+
+  .controls-box {
+    max-width: 100%;
+    padding: 20px;
+  }
+
+  .controls-box h2 {
+    font-size: 22px;
+  }
+
+  .controls-box p {
+    font-size: 14px;
+  }
+
+  .control-section h3 {
+    font-size: 16px;
+  }
+
+  .emoji-grid {
+    justify-content: center; /* center emoji buttons */
+  }
+
+  .emoji-btn {
+    font-size: 24px;
+    padding: 8px;
+  }
+
+  .color-grid {
+    justify-content: center; /* center color buttons */
+  }
+
+  .colorBtn {
+    width: 30px;
+    height: 30px;
+  }
+
+  .rotate-btn {
+    padding: 8px 20px;
+    font-size: 14px;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  .emoji-box {
+    width: 400px;
+    height: 200px;
+  }
+
+  .emoji-box span {
+    font-size: 80px;
+  }
+
+  .emoji-btn {
+    font-size: 20px;
+    padding: 6px;
+  }
+
+  .colorBtn {
+    width: 28px;
+    height: 28px;
+  }
+
+  .rotate-btn {
+    padding: 6px 16px;
+    font-size: 12px;
+  }
+}
