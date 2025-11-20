@@ -36,8 +36,6 @@ function Home() {
             <EmojiButtons emoji="🍦" setEmoji={setEmoji} />
           </div>
         </div>
-
-
         <div className="control-section">
           <h3>Color Picker</h3>
           <div className="color-grid">
@@ -58,7 +56,6 @@ function Home() {
 
           </div>
         </div>
-
         <div className="control-section">
           <h3>Size Slider</h3>
           <input
@@ -70,7 +67,6 @@ function Home() {
             className="slider"
           />
         </div>
-
         <div className="control-section">
           <h3>Rotate Emoji</h3>
           <div className="rotate-btn" onClick={() => setAngle(angle + 45)}>
