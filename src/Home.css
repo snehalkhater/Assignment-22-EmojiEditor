@@ -1,0 +1,121 @@
+.home-con {
+  margin-top: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 50px;
+  border-radius: 25px;
+  padding: 50px 40px;
+   background: linear-gradient( #fad0c4 0%, #fa9094 100%);
+}
+
+.emoji-box {
+  width: 350px;  
+  height: 350px;  
+  background-color: #fff;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.1);
+  flex-shrink: 0;
+  transition: 0.3s;
+}
+
+.emoji-box span {
+  font-size: 140px; 
+  transition: transform 0.3s, font-size 0.3s;
+}
+
+
+.controls-box {
+  flex: 1;
+  max-width: 500px;
+  height: 100%;
+  background-color: #fff;
+  border-radius: 25px;
+  padding: 25px 30px; 
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+}
+
+.controls-box h2 {
+  text-align: center;
+  font-size: 26px;
+  color: #444;
+}
+
+.controls-box p {
+  text-align: center;
+  color: #666;
+  font-size: 15px;
+}
+
+.control-section {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.control-section h3 {
+  font-size: 18px;
+  color: #555;
+}
+
+.emoji-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: flex-start;
+}
+
+.emoji-btn {
+  font-size: 28px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid #eee;
+  cursor: pointer;
+  background: #f9f9f9;
+  transition: 0.2s;
+}
+
+.emoji-btn:hover {
+  background: #e1e1e1;
+}
+
+.color-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.colorBtn {
+  width: 36px;
+  height: 36px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.colorBtn:hover {
+  transform: scale(1.2);
+}
+
+.rotate-btn {
+  padding: 10px 25px;
+  background-color: #ff9a9e;
+  color: white;
+  border-radius: 12px;
+  cursor: pointer;
+  text-align: center;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.rotate-btn:hover {
+  background-color: #f7797d;
+}
