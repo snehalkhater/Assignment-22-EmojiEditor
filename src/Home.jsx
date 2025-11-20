@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./home.css";
+import "./Home.css";
 import EmojiButtons from "./emoji-btn.jsx";
 import ColorButtons from "./color-btn.jsx";
 
